@@ -1,0 +1,14 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "mcp8": {
+      "type": "local",
+      "command": ["bash", "./run-mcp.sh"],
+      "cwd": ".",
+      "enabled": true
+    }
+  },
+  "permission": {
+    "mcp8*": "ask"
+  }
+}
