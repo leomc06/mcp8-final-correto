@@ -1,9 +1,9 @@
-name: mcp8
+name: mcpfinal
 
 services:
   postgres:
     image: postgres:17
-    container_name: mcp8
+    container_name: mcpfinal
     restart: unless-stopped
 
     environment:
@@ -27,4 +27,4 @@ services:
 
 volumes:
   postgres_data:
-    name: mcp8
+    name: mcpfinal

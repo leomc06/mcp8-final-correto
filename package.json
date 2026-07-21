@@ -1,5 +1,5 @@
 {
-  "name": "mcp8",
+  "name": "mcpfinal",
   "version": "1.0.0",
   "description": "Servidor MCP local conectado a PostgreSQL em Docker e integrado ao OpenCode.",
   "main": "src/server.js",
